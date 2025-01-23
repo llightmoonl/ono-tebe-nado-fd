@@ -68,7 +68,7 @@
   padding: 0 50px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 47px;
 }
 
 .cover__title{
@@ -77,10 +77,10 @@
   letter-spacing: 30px;
   position: relative;
   display: flex;
-  flex-grow: 1;
+  flex-grow: 1.6;
   flex-direction: column;
-  justify-content: center;
-  line-height: 0;
+  justify-content: end;
+  line-height: 1.35;
 }
 
 .aligned-text,
@@ -106,7 +106,7 @@
   justify-content: space-between;;
   align-items: center;
   position: relative;
-  flex-grow: 0.45;
+  flex-grow: 1;
 }
 
 .cover__description-text{
