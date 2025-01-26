@@ -64,7 +64,6 @@
   background-size: cover;
   min-height: 757px;
   color: white;
-  text-transform: uppercase;
   padding: 0 50px;
   display: flex;
   flex-direction: column;
@@ -156,7 +155,6 @@
 .lots__title,
 .about__title{
   font-size: 4rem;
-  text-transform: uppercase;
 }
 
 .card{
@@ -179,7 +177,6 @@
 
 .card__title{
   font-size: 2.2rem;
-  text-transform: uppercase;
   flex-grow: 1;
 }
 
@@ -284,7 +281,6 @@
   color: inherit;
   cursor: pointer;
   background-color: transparent;
-  text-transform: uppercase;
 }
 
 .overlay{
@@ -294,6 +290,14 @@
   height: 100%;
   background-color: rgba(0,0,0,0.6);
   z-index: 0;
+}
+
+.cover,
+.button,
+.lots__title,
+.about__title,
+.card__title{
+  text-transform: uppercase;
 }
 
 .cover__title,
@@ -307,5 +311,3 @@
   font-style: inherit;
   line-height: 1.35;
 }
-
-
