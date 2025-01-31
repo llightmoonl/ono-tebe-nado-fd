@@ -255,6 +255,7 @@
 
 .about__text {
   margin-bottom: 24px;
+  line-height: 1.2;
 }
 
 .about__text:last-of-type {
